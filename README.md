@@ -8,4 +8,4 @@
         printf("%s\n", colors[i]);
 	    }
 
-   return 0;
+   return 0; 
