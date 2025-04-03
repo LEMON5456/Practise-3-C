@@ -8,6 +8,6 @@ int main() {
     for (int i = 0; i < 3; i++) {
         printf("%d\n", numbers[i]);
     }
-
+// https://pythontutor.com/render.html#mode=display
     return 0;
 } 
