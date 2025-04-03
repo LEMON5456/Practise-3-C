@@ -1,16 +1,16 @@
 #include <stdio.h>
-2	
-3	int main() {
-4	    // Создаем массив из 3 строк
-5	    char colors[3][10] = {"red", "blue", "green"};
-6	
-7	    // Меняем первый элемент (красный) на желтый
-8	    strcpy(colors[0], "yellow");
-9	
-10	    // Выводим массив на экран
-11	    for (int i = 0; i < 3; i++) {
-12	        printf("%s\n", colors[i]);
-13	    }
-14	
-15	    return 0;
-16	}
+
+int main() {
+    // Создаем массив из 3 строк
+    char colors[3][10] = {"red", "blue", "green"};
+
+    // Меняем первый элемент (красный) на желтый
+    strcpy(colors[0], "yellow");
+
+   // Выводим массив на экран
+    for (int i = 0; i < 3; i++) {
+        printf("%s\n", colors[i]);
+    }
+
+    return 0;
+}
